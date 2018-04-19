@@ -1,0 +1,17 @@
+{
+    "GEN_F207VG": {
+        "inherits": ["FAMILY_STM32"],
+        "core": "Cortex-M3",
+        "extra_labels_add": ["STM32F2", "STM32F207VG"],
+        "config": {
+            "clock_source": {
+                "help": "Mask value : USE_PLL_HSE_EXTC | USE_PLL_HSE_XTAL | USE_PLL_HSI",
+                "value": "USE_PLL_HSE_EXTC|USE_PLL_HSE_XTAL|USE_PLL_HSI",
+                "macro_name": "CLOCK_SOURCE"
+            }
+        },
+        "device_has_add": ["ANALOGIN", "ANALOGOUT", "CAN", "I2C", "SPI", "SERIAL_ASYNCH", "SERIAL_FC", "FLASH"],
+        "features": ["LWIP"],
+        "device_name": "STM32F207VG"
+    }
+}
