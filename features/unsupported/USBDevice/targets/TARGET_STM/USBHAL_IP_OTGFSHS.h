@@ -137,6 +137,7 @@ USBHAL::USBHAL(void) {
     // Configure USB pins and other clocks
 
 #if defined(TARGET_NUCLEO_F207ZG) || \
+    defined(TARGET_GEN_F207VG) || \
     defined(TARGET_NUCLEO_F401RE) || \
     defined(TARGET_NUCLEO_F411RE) || \
     defined(TARGET_NUCLEO_F412ZG) || \

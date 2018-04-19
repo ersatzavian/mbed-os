@@ -19,6 +19,7 @@
 #define USBHAL_STM32_H
 
 #if defined(TARGET_NUCLEO_F207ZG) || \
+    defined(TARGET_GEN_F207VG) || \
     defined(TARGET_NUCLEO_F401RE) || \
     defined(TARGET_STEVAL_3DP001V1) || \
     defined(TARGET_NUCLEO_F411RE) || \

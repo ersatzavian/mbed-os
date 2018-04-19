@@ -88,6 +88,7 @@
 #define INITIAL_SP              (0x20018000UL)
 
 #elif (defined(TARGET_STM32F207ZG) ||\
+       defined(TARGET_STM32F207VG) ||\
        defined(TARGET_STM32F405RG) ||\
        defined(TARGET_STM32F407VG) ||\
        defined(TARGET_STM32F411RE) ||\
