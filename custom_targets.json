@@ -6,12 +6,15 @@
         "config": {
             "clock_source": {
                 "help": "Mask value : USE_PLL_HSE_EXTC | USE_PLL_HSE_XTAL | USE_PLL_HSI",
-                "value": "USE_PLL_HSE_EXTC|USE_PLL_HSE_XTAL|USE_PLL_HSI",
+                "value": "USE_PLL_HSE_XTAL | USE_PLL_HSI",
                 "macro_name": "CLOCK_SOURCE"
+            },
+            "hse_value": {
+                "value": "26000000",
+                "macro_name": "HSE_VALUE"
             }
         },
         "device_has_add": ["ANALOGIN", "ANALOGOUT", "CAN", "I2C", "SPI", "SERIAL_ASYNCH", "SERIAL_FC", "FLASH"],
-        "features": ["LWIP"],
         "device_name": "STM32F207VG"
     }
 }
